@@ -1,0 +1,635 @@
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(143, 50, 50, 0); 
+  }
+
+   h1, h2 ,h3 ,h4, h5, h6{
+   margin: 13.5% 0% 0% 0%;
+   padding: 0;
+
+  }
+  .time{
+      margin: 1%;
+      font-size: 10px;
+      color: #888;
+  }
+  .chatListmeasage{
+      display:flex;
+      position: relative;
+      flex-direction: column;
+      
+
+  }
+
+  .chatListmeasage >p{
+      margin: 0%;
+      font-size: 12px;
+      color: #888;
+  }
+
+.chatlist{
+
+    height:8%;
+    cursor: pointer;
+    width:100%;
+    position: relative;
+    border-bottom: 1px solid rgb(184, 182, 182);
+    display: flex;
+    flex-direction: row
+}
+
+.chatlistAvaterUser {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 11px;
+    bottom: 0;
+    border-radius: 20px;
+    background: #1A5276;
+}
+.user{
+
+    height:8%;
+    cursor: pointer;
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-direction: row
+}
+.chatlistAvater{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 20px;
+  background: #1A5276;
+}
+
+.navBar{
+    position:fixed;
+    height:60px;
+    width:100%;
+    z-index: 999;
+    background:white;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28)
+}
+.avaterDiv{
+    width: 50px;
+}
+
+.chatListmeasageUser {
+    display: flex;
+    margin-left: 60px;
+    position: relative;
+    flex-direction: column;
+}
+.chatListmeasageUser >p{
+    margin: 0%;
+    font-size: 12px;
+    color: #888;
+}
+.avaterDivUser{
+    width: 60px;
+    position: absolute;
+    height: 60px;
+}
+
+
+.chatDiv{ 
+    top:1%;
+    display: flex;
+     flex-direction: column-reverse;
+     width: 100%;
+    height: 89%;
+    padding-top: 1%; 
+    overflow-y: scroll; 
+}
+
+
+.homeDiv{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background:rgb(223, 225, 230);
+    flex-direction: row;
+}
+
+
+.homeBanner{
+    height: 25% ;
+    width: 30%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top:0;
+    padding: 2%;
+    right: 0;
+    bottom: 0;
+    background: white;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28)
+}
+
+.leftside{
+   background: white;
+   margin-top: 60px;
+   width: 30%;
+   margin: 5% 0.5% 1% 1%;
+   padding: 1%;
+   min-height: 20%; 
+   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28)
+
+}
+.rightside{
+    margin: 5% 1% 1% 0%;
+    padding: 0%;
+    background: transparent;
+    width: 70%;
+    scrollbar-color: transparent;
+    /* box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28)
+  */
+ }
+
+ .msgBox{
+    position: fixed;
+    bottom: 1.6%;
+    width: 65%;
+    padding: 0.6%;
+    padding: 9px 12px 11px;
+    display: flex;
+    flex-direction: row;
+  /*  border-radius:50px 50px 50px 50px; */
+    overflow-x: hidden;
+
+    z-index: 999;
+    border: none;
+    outline: none;
+    background: rgba(106, 107, 110, 0.28);
+ }
+
+
+ [contentEditable=true]:empty {
+    padding-left: 1%;
+}
+
+[contentEditable=true]:empty::before{
+    content:attr(data-ph);
+    color: #CCC;
+    text-align: left;
+   
+}
+.btnSend{
+    margin-left: 1%;
+    height: 40px;
+    width: 40px;
+    background:#1A5276; 
+    border-radius:20px;
+    color: white; 
+    text-align: center;
+    line-height: 40px;
+}
+
+.userLeft{
+    margin-right: 1%;
+    margin-left: 1%;
+    height: 20px;
+    width: 20px;
+    background:#1A5276;
+    border-radius:20px;
+    color: white; 
+    text-align: center;
+    line-height: 40px;
+}
+
+.userRight{
+    margin-left: 1%;
+    height: 20px;
+    width: 20px;
+    background: rgb(141, 140, 140);
+    border-radius:20px;
+    color: white; 
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+.leftChatbul{
+    width: fit-content;
+    max-width: 80%;
+    background:#1A5276; 
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    margin-top:0.1%;
+   margin-bottom:0.1%;
+   font-size: 17px; 
+   padding: 1% !important;
+      white-space: pre-wrap !important; 
+    word-wrap: break-word !important;
+   color:#ffffff ; 
+   display: flex; 
+   border-radius:0px 12px 12px 12px;
+   text-align: left
+}
+.rightChatbul{
+    width: fit-content;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    border-radius:12px 0px 12px 12px;
+   padding: 1%;
+   max-width: 80%;
+   direction: rtl;
+   background:white !important;
+   color: black !important;
+   margin-top:0.1%;
+   margin-bottom:0.1%;
+   direction:ltr;
+   font-size: 17px; 
+    white-space: pre-wrap !important; 
+   word-wrap: break-word !important;
+   color:#ffffff ; 
+   display: flex; 
+   text-align: left;
+}
+
+ .noOutline{
+     outline: none;
+     border: none;
+     margin-top: 1.2%;
+     margin-left: 1%;
+     white-space: pre-wrap;
+     word-wrap: break-word;
+
+ }
+ .textBox{
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    max-height: 100px;
+    min-height: 40px;
+    outline: none;
+    width: 94%;
+    padding-left: 1%;
+    background: white;
+    overflow-x: hidden;
+    border-radius:21px;
+    overflow-y: auto;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-right: 0%;
+    position: relative;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    z-index: 1;
+    
+ }
+
+
+.sendIcon{
+    height: 20px;
+    margin-top: 10px;
+    /* margin: auto; */
+    /* right: 0; */
+    /* top: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* position: initial; */
+    /* line-height: 35px; */
+    width: 20px;
+}
+
+
+@media (min-width: 1281px) {
+
+    @keyframes placeHolderShimmer{
+      0% {
+        background-position: -1000px 0
+      }
+      100% {
+        background-position: 1000px 0
+      }
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+  
+    @keyframes placeHolderShimmer{
+      0% {
+        background-position: -1000px 0
+      }
+      100% {
+        background-position: 1000px 0
+      }
+    }
+ 
+   
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    @keyframes placeHolderShimmer{
+      0% {
+        background-position: -1000px 0
+      }
+      100% {
+        background-position: 1000px 0
+      }
+    }
+    .leftside{
+        width: 0% !important;
+        margin: 0% !important;
+        padding: 0% !important;
+        display: none;
+     }
+     .rightside{
+         margin: 0%;
+       width: 100% !important;
+     }
+   
+     .msgBox {
+        position: absolute !important;
+        bottom: 1.6%;
+        width: 96%;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    @keyframes placeHolderShimmer{
+      0% {
+        background-position: -1000px 0
+      }
+      100% {
+        background-position: 1000px 0
+      }
+    }
+    .msgBox {
+        position: absolute !important;
+        bottom: 1.6%;
+        width: 96.2%;
+    }
+    
+  }
+
+  /*
+
+  iPhone X landscape
+  */
+  
+  @media (min-width: 375px) and (max-width: 823px) and (orientation: landscape) {
+    @keyframes placeHolderShimmer{
+      0% {
+        background-position: -1000px 0
+      }
+      100% {
+        background-position: 1000px 0
+      }
+    }
+    
+
+  }
+
+  /*
+
+  iPhone X landscape
+  */
+  
+  @media (min-width: 823px) and (max-width: 375px) and (orientation: landscape) {
+    @keyframes placeHolderShimmer{
+      0% {
+        background-position: -1000px 0
+      }
+      100% {
+        background-position: 1000px 0
+      }
+    }
+    .leftside{
+        width: 0% !important;
+        margin: 0% !important;
+        padding: 0% !important;
+        display: none;
+     }
+     .rightside{
+        margin: 0%;
+     
+       width: 100% !important;
+     }
+    
+     .msgBox {
+        position: absolute !important;
+        bottom: 0;
+        width: 95%
+    }
+    
+  }
+
+
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    @keyframes placeHolderShimmer{
+      0% {
+        background-position: -1000px 0
+      }
+      100% {
+        background-position: 1000px 0
+      }
+    }
+    .noOutline{
+        outline: none;
+        border: none;
+        margin-top: 2.1% !important;
+    
+     }
+     .leftside{
+        width: 0% !important;
+        display: none;
+        margin: 0% !important;
+        padding: 0% !important
+     }
+     .rightside{
+        margin: 0%;
+     
+       width: 100% !important;
+     }
+     .msgBox {
+        position: fixed !important;
+        bottom: 0;
+        width: 96.3%
+    }
+    .chatDiv{ 
+        top:1%;
+        display: flex;
+         flex-direction: column-reverse;
+         width: 100%;
+        height: 70%;
+        padding-top: 1%; 
+        padding-bottom: 2%;
+        overflow-y: scroll; 
+    }
+    .btnSend {
+        margin-left: 1%;
+        height: 40px;
+        width: 44px;
+        background: #1A5276;
+        border-radius: 20px;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    @keyframes placeHolderShimmer{
+      0% {
+        background-position: -1000px 0
+      }
+      100% {
+        background-position: 1000px 0
+      }
+    }
+
+    .msgBox {
+        position: fixed !important;
+        bottom: 0;
+        width: 95%
+    }
+ 
+    .leftside{
+        width: 0% !important;
+        margin: 0% !important;
+        padding: 0% !important;
+        display: none;
+     }
+     .rightside{
+        margin: 0%;
+     
+       width: 100% !important;
+     }
+    
+     .noOutline{
+        outline: none;
+        border: none;
+        margin-top: 2.8% !important;
+    
+
+     }
+     .chatDiv{ 
+        top:1%;
+        display: flex;
+         flex-direction: column-reverse;
+         width: 100%;
+        height: 70%;
+        padding-top: 1%; 
+        padding-bottom: 2%;
+        overflow-y: scroll; 
+    }
+     .btnSend {
+        margin-left: 1%;
+        height: 40px;
+        width: 44px;
+        background: #1A5276;
+        border-radius: 20px;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+    }
+    .msgBox {
+        position: fixed !important;
+        bottom: 0%;
+        width: 96.2%;
+    }
+  }
+
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 240px) and (max-width: 320px) {
+    @keyframes placeHolderShimmer{
+      0% {
+        background-position: -1000px 0
+      }
+      100% {
+        background-position: 1000px 0
+      }
+    }
+    .btnSend {
+        margin-left: 1%;
+        height: 40px;
+        width: 44px;
+        background: #1A5276;
+        border-radius: 20px;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+    }
+    .noOutline{
+        outline: none;
+        border: none;
+        margin-top: 2.2% !important;
+    
+     }
+
+    .msgBox {
+        position: absolute !important;
+        bottom: 0;
+        width: 95%
+    }
+    .leftside{
+        width: 0% !important;
+        display: none;
+        margin: 0% !important;
+        padding: 0% !important
+     }
+     .rightside{
+        margin: 0%;
+     
+       width: 100% !important;
+     }
+    
+    
+  }

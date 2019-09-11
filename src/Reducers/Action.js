@@ -1,0 +1,7 @@
+export  const ZeeTabSelected="ZeeTabSelected"
+export  const VIDEO_DATA="VIDEO_DATA"
+export  const OTT_DATA="OTT_DATA"
+export  const MAGAZINE_DATA="MAGAZINE_DATA"
+export  const GUIDE_DATA="GUIDE_DATA"
+export  const GAME_DATA="GAME_DATA"
+export  const ADD_META_DATA="OTT_DATA_DATA"
