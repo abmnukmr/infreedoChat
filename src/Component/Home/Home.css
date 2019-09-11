@@ -183,7 +183,6 @@
     z-index: 999;
     border: none;
     outline: none;
-    background: rgba(106, 107, 110, 0.28);
  }
 
 
@@ -238,8 +237,7 @@
     max-width: 80%;
     background:#1A5276; 
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
-    margin-top:0.1%;
-   margin-bottom:0.1%;
+    margin-top:1%;
    font-size: 17px; 
    padding: 1% !important;
       white-space: pre-wrap !important; 
@@ -247,7 +245,8 @@
    color:#ffffff ; 
    display: flex; 
    border-radius:0px 12px 12px 12px;
-   text-align: left
+   text-align: left;
+   word-break: break-all;
 }
 .rightChatbul{
     width: fit-content;
@@ -258,14 +257,14 @@
    direction: rtl;
    background:white !important;
    color: black !important;
-   margin-top:0.1%;
-   margin-bottom:0.1%;
+   margin-top:1%;
    direction:ltr;
    font-size: 17px; 
     white-space: pre-wrap !important; 
    word-wrap: break-word !important;
    color:#ffffff ; 
    display: flex; 
+   word-break: break-all;
    text-align: left;
 }
 

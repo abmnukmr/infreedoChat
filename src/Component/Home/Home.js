@@ -214,7 +214,7 @@ class Home extends React.Component {
 
                             </div>
                             <div onMouseDown={this.sendData.bind(this)} className="btnSend">
-                                <img alt="send button " style={this.state.sendbuttonActive === true ? sendbuttonState.active : sendbuttonState.inActive} className="sendIcon" src="buttons/send.svg" />
+                                <img alt="send button " style={this.state.sendbuttonActive === true ? sendbuttonState.active : sendbuttonState.inActive} className="sendIcon" src="/buttons/send.svg" />
                             </div>
                         </div>
                     </div>
