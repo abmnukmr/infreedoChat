@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/infreedoChat/static/css/main.f86d8573.chunk.css",
+    "main.css": "/infreedoChat/static/css/main.6abef9ab.chunk.css",
     "main.js": "/infreedoChat/static/js/main.2c6324c4.chunk.js",
     "main.js.map": "/infreedoChat/static/js/main.2c6324c4.chunk.js.map",
     "runtime~main.js": "/infreedoChat/static/js/runtime~main.b62cb803.js",
@@ -8,8 +8,8 @@
     "static/js/2.13b0bc79.chunk.js": "/infreedoChat/static/js/2.13b0bc79.chunk.js",
     "static/js/2.13b0bc79.chunk.js.map": "/infreedoChat/static/js/2.13b0bc79.chunk.js.map",
     "index.html": "/infreedoChat/index.html",
-    "precache-manifest.7a2be62028a55b7417e868ca3547eba0.js": "/infreedoChat/precache-manifest.7a2be62028a55b7417e868ca3547eba0.js",
+    "precache-manifest.1d755097c658e1d97957adcc3ed65b5a.js": "/infreedoChat/precache-manifest.1d755097c658e1d97957adcc3ed65b5a.js",
     "service-worker.js": "/infreedoChat/service-worker.js",
-    "static/css/main.f86d8573.chunk.css.map": "/infreedoChat/static/css/main.f86d8573.chunk.css.map"
+    "static/css/main.6abef9ab.chunk.css.map": "/infreedoChat/static/css/main.6abef9ab.chunk.css.map"
   }
 }

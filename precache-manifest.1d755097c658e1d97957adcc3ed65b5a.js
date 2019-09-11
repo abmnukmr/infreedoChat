@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb21f981e2bf0f70258cd039dc215025",
+    "revision": "89706739e8c9a8be0f18d0b833467219",
     "url": "/infreedoChat/index.html"
   },
   {
-    "revision": "1f4abc741ebaa673d7c6",
-    "url": "/infreedoChat/static/css/main.f86d8573.chunk.css"
+    "revision": "7d03f6ee5738e9668876",
+    "url": "/infreedoChat/static/css/main.6abef9ab.chunk.css"
   },
   {
     "revision": "8e3357ff4f4e0939e5f1",
     "url": "/infreedoChat/static/js/2.13b0bc79.chunk.js"
   },
   {
-    "revision": "1f4abc741ebaa673d7c6",
+    "revision": "7d03f6ee5738e9668876",
     "url": "/infreedoChat/static/js/main.2c6324c4.chunk.js"
   },
   {
