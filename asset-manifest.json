@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/infreedoChat/static/css/main.3ef5e9c3.chunk.css",
-    "main.js": "/infreedoChat/static/js/main.ada8f4a7.chunk.js",
-    "main.js.map": "/infreedoChat/static/js/main.ada8f4a7.chunk.js.map",
+    "main.js": "/infreedoChat/static/js/main.c1fe90c4.chunk.js",
+    "main.js.map": "/infreedoChat/static/js/main.c1fe90c4.chunk.js.map",
     "runtime~main.js": "/infreedoChat/static/js/runtime~main.b62cb803.js",
     "runtime~main.js.map": "/infreedoChat/static/js/runtime~main.b62cb803.js.map",
     "static/js/2.13b0bc79.chunk.js": "/infreedoChat/static/js/2.13b0bc79.chunk.js",
     "static/js/2.13b0bc79.chunk.js.map": "/infreedoChat/static/js/2.13b0bc79.chunk.js.map",
     "index.html": "/infreedoChat/index.html",
-    "precache-manifest.28e74e35fb5e2cfccd6430ce19a6be1e.js": "/infreedoChat/precache-manifest.28e74e35fb5e2cfccd6430ce19a6be1e.js",
+    "precache-manifest.6ea6911d0f4a6bfa013dcb0d8e7570f1.js": "/infreedoChat/precache-manifest.6ea6911d0f4a6bfa013dcb0d8e7570f1.js",
     "service-worker.js": "/infreedoChat/service-worker.js",
     "static/css/main.3ef5e9c3.chunk.css.map": "/infreedoChat/static/css/main.3ef5e9c3.chunk.css.map"
   }
