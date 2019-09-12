@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/infreedoChat/precache-manifest.4daa2830f6bd1c66eebda8282fd92d35.js"
+  "/infreedoChat/precache-manifest.b1126cd99cfb04031cbbae09b7d19f45.js"
 );
 
 self.addEventListener('message', (event) => {
